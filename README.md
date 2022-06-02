@@ -6,7 +6,7 @@
     - Sass
 
 ## Commande utilisées
-    <u>Partie commande</u>
+   <u>Partie commande</u>
 
     - Installation du code :
         - npm init (dossier source)
