@@ -6,7 +6,7 @@
     - Sass
 
 ## Commande utilisées
-   <u>Partie commande</u>
+   <p text-decoration=underline>Partie commande</p>
 
     - Installation du code :
         - npm init (dossier source)
