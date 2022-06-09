@@ -8,7 +8,7 @@
 
 ## Commande utilisées
 
-    - Partie commande
+   - Partie commande
 
         ```bash
         - npx create-react-app app-name --template typescript
@@ -17,11 +17,12 @@
         - npm i -D @types/node-sass
         ```
 
-    - Partie navigateur
-
+   - Partie navigateur
+        
+        ```bash
         - npm i
         - npm start
-        
+        ```
 
 # Source
     - https://blog.devgenius.io/implementing-react-router-v6-with-code-splitting-in-a-react-typescript-project-14d98e2cab79
