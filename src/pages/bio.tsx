@@ -9,6 +9,10 @@ export default function Bio() {
             <Navbar />
             <div className="profile_image">
                 <img src={Logo} alt="profil image" />
+                <p>Bonjour, je m'appel Vincent K/BIDI</p>
+                <div>
+                    <p>FRONTEND / BACKEND DEVELOPER</p>
+                </div>
             </div>
         </div>
     )
