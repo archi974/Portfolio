@@ -1,14 +1,18 @@
 import React from 'react';
-import Navbar from '../components/navbar/navbar';
+import NavbarComponent from '../component/Navbar/Navbar';
 import Logo from "../assets/AvatarMaker.png";
-import LinkComp from '../components/linkComp';
-import "../pages/scss/bio.css";
+import LinkComp from '../component/linkComp';
+import "./scss/bio.css";
 
-export default function Bio() {
+export interface IBioPageProps { };
+
+const BioPage: React.FunctionComponent<IBioPageProps> = props => {
+
     return (
         <div>
-            <Navbar />
+            <NavbarComponent />
             <div className="profile_image">
+                <h1>Bio</h1>
                 <img src={Logo} alt="profil image" />
                 <h1>Vincent K/BIDI</h1>
                 <div>
@@ -21,5 +25,7 @@ export default function Bio() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
+
+export default BioPage;

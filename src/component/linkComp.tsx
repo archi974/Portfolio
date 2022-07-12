@@ -1,6 +1,9 @@
-import React from "react";
+import React from 'react';
 
-const LinkComp = () => {
+export interface ILinkComponentProps { };
+
+const LinkComponent: React.FunctionComponent<ILinkComponentProps> = props => {
+
     return (
         <div>
             <a href="https://devdocs.io/html/" target="_blank">
@@ -58,7 +61,7 @@ const LinkComp = () => {
                 <img src="https://img.shields.io/badge/Github-222?style=for-the-badge&logo=github&logoColor=white" alt="Github" />
             </a>
         </div>
-    )
+    );
 }
 
-export default LinkComp;
+export default LinkComponent;
