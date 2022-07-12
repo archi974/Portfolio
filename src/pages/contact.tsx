@@ -25,7 +25,8 @@ export default function Contact() {
     return (
         <div>
             <Navbar />
-            <a href="../src/assets/Curriculum_Vitae_Vincent_K_BIDI.pdf" target="_blank" >Curriculum Vitae</a>
+            <p><a href="/portfolio/Curriculum_Vitae_Vincent_K_BIDI.pdf" target="_blank" >Curriculum Vitae</a></p>
+            <a href="https://www.linkedin.com/in/vincent-kbidi/" target="_blank">LinkedIn<img src="https://api.iconify.design/openmoji:linkedin.svg" alt="logo LinkedIn" /></a>
             <form className="contact-form" onSubmit={sendEmail}>
                 <input type="text" name="from_name" placeholder="Nom" />
                 <input type="email" name="from_email" placeholder="Email" />
