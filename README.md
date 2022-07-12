@@ -12,7 +12,7 @@
    - Partie commande
         - Création du projet
         ```bash
-        npx create-react-app app-name --template typescript
+        create-react-app app-name --template=typescript
         ```
         - Création des routes pour changer de page
         ```bash
