@@ -1,3 +1,29 @@
+.body-contact {
+  background-color: #000;
+}
+
+.container-contact h1 {
+  text-align: center;
+}
+
+.contact {
+  background-color: #0D121E;
+}
+
+.test {
+  z-index: 1000;
+  position: relative;
+}
+
+.contact-data {
+  color: #93908E;
+}
+
+.contact-data a {
+  text-decoration: none;
+  color: #93908E;
+}
+
 .contact_form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,10 +32,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkgrey;
   margin: 40px 60px;
-}
-
-.contact_form h1 {
-  text-align: center;
 }
 /*# sourceMappingURL=contact.css.map */

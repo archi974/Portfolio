@@ -7,7 +7,7 @@ export interface IProjectPageProps { };
 const ProjectPage: React.FunctionComponent<IProjectPageProps> = props => {
 
     return (
-        <div>
+        <div className="body-project">
             <NavbarComponent />
             <div>
                 <h1>Project</h1>
