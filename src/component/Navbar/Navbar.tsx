@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 export interface INavbarComponentProps { };
@@ -14,7 +15,13 @@ const NavbarComponent: React.FunctionComponent<INavbarComponentProps> = props =>
                 <span className="menu-icon__line"></span>
             </label>
 
-            <ul className="nav-links">
+            <div>
+                <Link to="/Portfolio/bio">Bio</Link>
+                <Link to="/Portfolio/project">Project</Link>
+                <Link to="/Portfolio/contact">contact</Link>
+            </div>
+
+            {/* <ul className="nav-links">
                 <li className="nav-link">
                     <a href="/Portfolio/bio">Bio</a>
                 </li>
@@ -24,7 +31,7 @@ const NavbarComponent: React.FunctionComponent<INavbarComponentProps> = props =>
                 <li className="nav-link">
                     <a href="/Portfolio/contact">Contact</a>
                 </li>
-            </ul>
+            </ul> */}
         </header>
     );
 }
