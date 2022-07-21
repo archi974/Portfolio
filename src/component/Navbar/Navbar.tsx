@@ -7,7 +7,7 @@ const NavbarComponent: React.FunctionComponent<INavbarComponentProps> = props =>
     return (
         <header className="main-header">
             <div className="logo">
-                <a href="#">LOGO</a>
+                <a href="/Portfolio/bio">LOGO</a>
             </div>
             <input type="checkbox" className="menu-btn" id="menu-btn" />
             <label htmlFor="menu-btn" className="menu-icon">
