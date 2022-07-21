@@ -31,13 +31,14 @@
   list-style: none;
 }
 
-.main-header .nav-links .nav-link a {
+.main-header .nav-links .nav-link {
   margin: .2rem;
   padding: 1rem .5rem;
 }
 
-.main-header .nav-links .nav-link a:hover {
+.main-header .nav-links .nav-link:hover {
   background: rgba(255, 255, 255, 0.2);
+  border-radius: 10%;
 }
 
 .main-header .menu-icon {

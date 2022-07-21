@@ -15,23 +15,11 @@ const NavbarComponent: React.FunctionComponent<INavbarComponentProps> = props =>
                 <span className="menu-icon__line"></span>
             </label>
 
-            <div>
-                <Link to="/Portfolio/bio">Bio</Link>
-                <Link to="/Portfolio/project">Project</Link>
-                <Link to="/Portfolio/contact">contact</Link>
+            <div className="nav-links">
+                <Link to="/Portfolio/bio" className="nav-link">Bio</Link>
+                <Link to="/Portfolio/project" className="nav-link">Project</Link>
+                <Link to="/Portfolio/contact" className="nav-link">Contact</Link>
             </div>
-
-            {/* <ul className="nav-links">
-                <li className="nav-link">
-                    <a href="/Portfolio/bio">Bio</a>
-                </li>
-                <li className="nav-link">
-                    <a href="/Portfolio/project">Project</a>
-                </li>
-                <li className="nav-link">
-                    <a href="/Portfolio/contact">Contact</a>
-                </li>
-            </ul> */}
         </header>
     );
 }

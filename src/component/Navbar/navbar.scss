@@ -21,13 +21,12 @@
         list-style: none;
 
         .nav-link {
-            a {
-                margin: .2rem;
-                padding: 1rem .5rem;
-            }
+            margin: .2rem;
+            padding: 1rem .5rem;
 
-            a:hover {
-                background: rgba(255, 255, 255, 0.2)
+            &:hover {
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 10%;
             }
         }
     }
