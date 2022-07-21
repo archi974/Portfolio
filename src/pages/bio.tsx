@@ -18,7 +18,7 @@ const BioPage: React.FunctionComponent<IBioPageProps> = props => {
                 </div>
                 {/* <img src={Logo} alt="profil image" /> */}
                 <div className="container-bio">
-                    <a href="https://github.com/archi974" target="_blank" rel="noopener">
+                    <a href="https://github.com/archi974" target="_blank" rel="noopener noreferrer">
                         GitHub
                         <img src="https://api.iconify.design/logos:github-octocat.svg" alt="Logo GitHub" />
                     </a>
