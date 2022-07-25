@@ -51,4 +51,10 @@
 .container-bio a {
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 767px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
 /*# sourceMappingURL=bio.css.map */
