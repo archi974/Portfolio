@@ -12,7 +12,6 @@ const NavbarComponent: React.FunctionComponent<INavbarComponentProps> = props =>
         inputRef.current?.focus();
         window.addEventListener('scroll', () => {
             const scrollPos = window.scrollY;
-            console.log(scrollPos);
 
             if (scrollPos > 10) {
                 inputRef.current?.classList.add('scrolled')

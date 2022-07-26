@@ -218,7 +218,7 @@
 
 @keyframes closedTop {
     0% {
-        transform: translateY(-5px) rotate(0deg);
+        transform: translateY(0px) rotate(45deg);
     }
 
     50% {
@@ -226,7 +226,7 @@
     }
 
     100% {
-        transform: translateY(0px) rotate(90deg);
+        transform: translateY(-5px) rotate(0deg);
     }
 }
 
@@ -246,7 +246,7 @@
     }
 
     100% {
-        transform: rotate(45deg);
+        transform: rotate(0deg);
     }
 }
 
@@ -266,7 +266,7 @@
 
 @keyframes closedBtm {
     0% {
-        transform: translateY(5px) rotate(0deg);
+        transform: translateY(0px) rotate(90deg);
     }
 
     50% {
@@ -274,6 +274,6 @@
     }
 
     100% {
-        transform: translateY(0px) rotate(90deg);
+        transform: translateY(5px) rotate(0deg);
     }
 }
