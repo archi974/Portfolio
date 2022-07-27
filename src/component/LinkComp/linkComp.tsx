@@ -1,11 +1,12 @@
 import React from 'react';
+import "./linkComp.scss";
 
 export interface ILinkComponentProps { };
 
 const LinkComponent: React.FunctionComponent<ILinkComponentProps> = props => {
 
     return (
-        <div>
+        <div className="container-link-comp">
             <a href="https://devdocs.io/html/" target="_blank" rel="noopener noreferrer">
                 <img src="https://img.shields.io/badge/html5%20-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
             </a>&nbsp;

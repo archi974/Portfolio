@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .main-header {
   position: fixed;
   display: -webkit-box;
@@ -37,8 +49,8 @@
 }
 
 .main-header .nav-links .nav-link:hover {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 10%;
+  background-color: #273653;
+  border-radius: 5px;
 }
 
 .main-header .menu-icon {
@@ -84,9 +96,10 @@
 }
 
 .main-header.scrolled {
-  margin-top: 20px;
   height: 50px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(28, 43, 74, 0.8);
+  -webkit-backdrop-filter: rgba(31, 53, 87, 0.95);
+          backdrop-filter: rgba(31, 53, 87, 0.95);
   color: #fff;
 }
 
@@ -135,8 +148,8 @@
     width: 100vw;
     height: 100vh;
     font-size: 2rem;
-    color: #272727;
-    background: #fff;
+    color: #fff;
+    background: #132133;
     -webkit-transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
     transition: opacity .8s .5s, -webkit-clip-path 1s .5s;
     transition: opacity .8s .5s, clip-path 1s .5s;
@@ -150,6 +163,10 @@
             transform: translateX(100%);
     width: 100%;
     text-align: center;
+  }
+  .main-header .nav-links .nav-link:hover {
+    background-color: #1F2C3D;
+    border-radius: 5px;
   }
   .main-header .nav-links a {
     display: block;
@@ -186,17 +203,17 @@
     border-radius: 50%;
   }
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon__line {
-    background: #000;
+    background: #fff;
     -webkit-animation: openMid 0.8s forwards;
             animation: openMid 0.8s forwards;
   }
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon__line::before {
-    background: #000;
+    background: #fff;
     -webkit-animation: openTop 0.8s forwards;
             animation: openTop 0.8s forwards;
   }
   .main-header .menu-btn:checked ~ .menu-icon .menu-icon__line::after {
-    background: #000;
+    background: #fff;
     -webkit-animation: openBtm 0.8s forwards;
             animation: openBtm 0.8s forwards;
   }

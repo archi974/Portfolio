@@ -15,7 +15,7 @@
         font-size: 4rem;
         text-transform: uppercase;
         text-align: center;
-        background: rgba(99, 99, 99, 0.4);
+        background: $backgroundBorderTitle;
         padding: 2rem;
         border-radius: 20px 0;
 
@@ -46,6 +46,10 @@
 
     a {
         margin: 1rem 0;
+    }
+
+    button {
+        background-color: #fff;
     }
 }
 

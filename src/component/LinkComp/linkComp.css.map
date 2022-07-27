@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,sEAAI;AAcZ,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,wBAAwB;CACtC;;ADpBD,AAAA,oBAAoB,CAAC;EAEjB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;CAC1B",
+    "sources": [
+        "linkComp.scss",
+        "../../App.scss"
+    ],
+    "names": [],
+    "file": "linkComp.css"
+}

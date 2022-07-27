@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-*{
+// BASIC COLOR
+$backgroundBorderTitle: rgba(99, 99, 99, 0.4);
+$fontColorWhite: #fff;
+$navbarBackgroundColorPrimary: rgba(28, 43, 74, 0.8);
+$navbarBackgorundColorPrimaryBDFilter: rgba(31, 53, 87, 0.95);
+$navbarBackgroundColorPrimaryHover: #273653;
+$navbarDropdownColorPrimary: #132133;
+$navbarDropdownColorPrimaryHover: #1F2C3D;
+$navbarButtonColorSecondary: #f8b700;
+$navbarButtonColorSecondaryHover: #f8d300;
+$warning: red;
+
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: 'Montserrat', sans-serif;
 }

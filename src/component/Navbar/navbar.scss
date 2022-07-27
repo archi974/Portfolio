@@ -1,3 +1,5 @@
+@import "../../App.scss";
+
 .main-header {
     position: fixed;
     display: flex;
@@ -6,7 +8,7 @@
     height: 65px;
     width: 100vw;
     padding: 0 10vw;
-    color: #fff;
+    color: $fontColorWhite;
     z-index: 1;
     transition: .4s ease-out;
 
@@ -25,8 +27,8 @@
             padding: 1rem .5rem;
 
             &:hover {
-                background: rgba(255, 255, 255, 0.2);
-                border-radius: 10%;
+                background-color: $navbarBackgroundColorPrimaryHover;
+                border-radius: 5px;
             }
         }
     }
@@ -41,7 +43,7 @@
         &__line {
             display: block;
             position: relative;
-            background: #fff;
+            background: $fontColorWhite;
             height: 2px;
             width: 20px;
             border-radius: 4px;
@@ -53,7 +55,7 @@
                 height: 100%;
                 width: 100%;
                 border-radius: 4px;
-                background: #fff;
+                background: $fontColorWhite;
                 transition: background-color .8s ease;
             }
 
@@ -72,17 +74,17 @@
     }
 
     &.scrolled {
-        margin-top: 20px;
         height: 50px;
-        background: rgba(0, 0, 0, 0.9);
-        color: #fff;
+        background: $navbarBackgroundColorPrimary;
+        backdrop-filter: $navbarBackgorundColorPrimaryBDFilter;
+        color: $fontColorWhite;
 
         .menu-icon {
 
             &__line,
             &__line::before,
             &__line::after {
-                background: #fff;
+                background: $fontColorWhite;
             }
         }
     }
@@ -121,8 +123,8 @@
             width: 100vw;
             height: 100vh;
             font-size: 2rem;
-            color: #272727;
-            background: #fff;
+            color: $fontColorWhite;
+            background: $navbarDropdownColorPrimary;
             transition:
                 opacity .8s .5s,
                 clip-path 1s .5s;
@@ -133,6 +135,11 @@
                 transform: translateX(100%);
                 width: 100%;
                 text-align: center;
+
+                &:hover {
+                    background-color: $navbarDropdownColorPrimaryHover;
+                    border-radius: 5px;
+                }
             }
 
             a {
@@ -173,16 +180,16 @@
             // animation: pulse 1s;
 
             .menu-icon__line {
-                background: #000;
+                background: $fontColorWhite;
                 animation: openMid 0.8s forwards;
 
                 &::before {
-                    background: #000;
+                    background: $fontColorWhite;
                     animation: openTop 0.8s forwards;
                 }
 
                 &::after {
-                    background: #000;
+                    background: $fontColorWhite;
                     animation: openBtm 0.8s forwards;
                 }
             }
