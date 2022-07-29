@@ -1,7 +1,7 @@
 import React from 'react';
 import NavbarComponent from '../component/Navbar/Navbar';
-// import Logo from "../assets/AvatarMaker.png";
 import LinkComp from '../component/LinkComp/linkComp';
+import BackgroundVideo from "../component/BackgroundVideo/backgroundVideo";
 import "./scss/bio.css"
 
 export interface IBioPageProps { };
@@ -13,10 +13,12 @@ const BioPage: React.FunctionComponent<IBioPageProps> = props => {
             <NavbarComponent />
             <div className="bio-page">
                 <div className="hero">
-                    <h1>Vincent K/BIDI</h1>
-                    <p>BACKEND/FRONTEND DEVELOPER</p>
+                    <div className="hero-title">
+                        <h1>Vincent K/BIDI</h1>
+                        <p>BACKEND/FRONTEND DEVELOPER</p>
+                    </div>
+                    <BackgroundVideo />
                 </div>
-                {/* <img src={Logo} alt="profil image" /> */}
                 <div className="divider-top-container">
                     <div className="divider"></div>
                 </div>
@@ -73,6 +75,7 @@ const BioPage: React.FunctionComponent<IBioPageProps> = props => {
                         <p></p>
                     </div>
                 </div>
+
             </div>
         </div>
     );

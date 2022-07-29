@@ -17,8 +17,7 @@ body {
 }
 
 .hero {
-  height: 100%;
-  background: url("../../assets/fond_bleu.png") no-repeat bottom center;
+  height: 56vw;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,11 +29,28 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10% 0px;
   color: #fff;
 }
 
-.hero h1 {
+.hero .hero-title {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 45vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .hero-title h1 {
   position: relative;
   font-size: 4rem;
   text-transform: uppercase;
@@ -44,7 +60,7 @@ body {
   border-radius: 20px 0;
 }
 
-.hero h1::before, .hero h1::after {
+.hero .hero-title h1::before, .hero .hero-title h1::after {
   content: '';
   position: absolute;
   top: 0;
@@ -52,17 +68,17 @@ body {
   width: 50%;
 }
 
-.hero h1::before {
+.hero .hero-title h1::before {
   left: 0;
   border-bottom: 6px solid #fff;
 }
 
-.hero h1::after {
+.hero .hero-title h1::after {
   right: 0;
   border-top: 6px solid #fff;
 }
 
-.hero p {
+.hero .hero-title p {
   padding-top: 20px;
 }
 
@@ -164,10 +180,10 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .hero {
-    padding: 55px;
+  .hero .hero-title {
+    margin-top: 50px;
   }
-  .hero h1 {
+  .hero .hero-title h1 {
     font-size: 2rem;
   }
   .container-link-bio a {

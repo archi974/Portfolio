@@ -23,6 +23,10 @@
         npm i -D node-sass
         npm i -D @types/node-sass
         ```
+        - Test de vulnérabilité des mises à jour
+        ```bash
+        npm audit --production
+        ```
 
    - Partie navigateur
         
