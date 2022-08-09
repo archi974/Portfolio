@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .main-header {
   position: fixed;
   display: -webkit-box;

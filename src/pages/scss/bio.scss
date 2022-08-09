@@ -28,6 +28,7 @@ body {
             text-transform: uppercase;
             text-align: center;
             background: $backgroundBorderTitle;
+            color: $fontColorWhite;
             padding: 2rem;
             border-radius: 20px 0;
 
@@ -53,6 +54,7 @@ body {
 
         p {
             padding-top: 20px;
+            color: $fontColorWhite;
         }
     }
 

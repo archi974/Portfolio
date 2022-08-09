@@ -1,24 +1,33 @@
-.body-contact {
-    background-color: #000;
-}
+@import "../../App.scss";
 
 .container-contact {
-    & h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+
+    h1 {
         text-align: center;
+        color: $fontColorWhite;
     }
 }
 
 .contact {
-    background-color: #0D121E;
+    margin-top: 30px;
+    background-color: $navbarBackgroundColorPrimary;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    width: 35vw;
 }
 
 .test {
     z-index: 1000;
     position: relative;
 }
-
-// img fond marron
-// background-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf7a985768804c98d/61f21a0cc74ced5b5b83aea3/repeating_leather_brown.jpg?format=webply&quality=70');
 
 // img border fer
 //     background-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltbdcab2b68433b9ae/61f96d07535b9060e0406cc1/divider_1.png?format=webply&quality=70');
@@ -27,11 +36,56 @@
 // border-image: url('https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltd398e86bd2a71475/6217dbb2621a6a2afac20c01/frame.png?format=webply&quality=70') 30;
 
 .contact-data {
-    color: #93908E;
+    background: $fontColorWhiteClear;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
 
-    & a {
+    p {
+        color: $fontColorGrey;
+    }
+
+    a {
         text-decoration: none;
-        color: #93908E;
+        color: $fontColorWhite;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-button-linkedin {
+        height: 35px;
+
+        &:hover {
+            transition: all .5s ease-out;
+            height: 45px;
+        }
+    }
+
+    button {
+        border: none;
+        background-color: #000;
+        border-radius: 10px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+    .contact-data-button {
+
+        a {
+            flex-direction: column;
+        }
+
+        &:hover {
+            background-color: $buttonColorYellow;
+            border-radius: 50%;
+            padding: 7.5px;
+            transition: all .5s ease-out;
+
+            a {
+                color: $fontColorBlack;
+            }
+        }
     }
 }
 
@@ -39,6 +93,44 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: darkgrey;
-    margin: 40px 60px;
+
+    .contact_form_text_area {
+        width: 25vw;
+        height: 30px;
+        margin-bottom: 15px;
+        padding: 3px;
+    }
+
+    textarea {
+        width: 25vw;
+        height: 125px;
+        margin-bottom: 15px;
+        padding: 3px;
+    }
+
+    .contact_form_btn {
+        background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt6a108acd06c5358f/624bd426844d9555dbf94103/gb_primary_button.png?format=webply&quality=70");
+        background-repeat: no-repeat;
+        width: 278px;
+        height: 73px;
+        color: $buttonFontColor;
+        margin: 15px;
+        font-size: 25px;
+        border: none;
+        border-radius: 17px;
+
+        &::after {
+            right: -14px;
+            bottom: -57px;
+            left: -14px;
+            height: 73px;
+            background: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt92ed22ae9528f0e0/button_primary_detail_bottom_left.png?format=webply&quality=70") no-repeat, url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb7111a019f71efb5/button_primary_detail_bottom_right.png?format=webply&quality=70") no-repeat;
+            background-position: 0 100%, 100% calc(100% - 4px);
+        }
+    }
+
 }
+
+
+
+// background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt6a108acd06c5358f/624bd42…/gb_primary_button.png?format=webply&quality=70);background-repeat: no-repeat;

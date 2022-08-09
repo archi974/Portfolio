@@ -7,10 +7,6 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-body {
   background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf7a985768804c98d/61f21a0cc74ced5b5b83aea3/repeating_leather_brown.jpg?format=webply&quality=70");
   background-size: 100% auto;
   background-color: #000;
@@ -56,6 +52,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   background: rgba(99, 99, 99, 0.4);
+  color: #fff;
   padding: 2rem;
   border-radius: 20px 0;
 }
@@ -80,6 +77,7 @@ body {
 
 .hero .hero-title p {
   padding-top: 20px;
+  color: #fff;
 }
 
 .divider-top-container {

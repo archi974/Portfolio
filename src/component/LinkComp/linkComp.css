@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 .container-link-comp {
   display: -webkit-box;
   display: -ms-flexbox;
