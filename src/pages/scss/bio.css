@@ -177,6 +177,32 @@ body {
           justify-content: space-evenly;
 }
 
+.journey .experience h2 {
+  margin-top: 10px;
+}
+
+.journey .experience h3 {
+  color: #87C9FA;
+  margin: 10px 0px;
+}
+
+.journey .experience p {
+  color: #B5B9BC;
+}
+
+.journey .education h2 {
+  margin-top: 10px;
+}
+
+.journey .education h3 {
+  color: #87C9FA;
+  margin: 10px 0px;
+}
+
+.journey .education p {
+  color: #B5B9BC;
+}
+
 @media screen and (max-width: 767px) {
   .hero .hero-title {
     margin-top: 50px;

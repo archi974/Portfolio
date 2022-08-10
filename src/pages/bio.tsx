@@ -68,11 +68,18 @@ const BioPage: React.FunctionComponent<IBioPageProps> = props => {
                         <h2>Education</h2>
 
                         <h3>Web@cadémie</h3>
-                        <p></p>
+                        <p>Développeur intégrateur web 2021 - 2023</p>
+                        <p>Préparation d'un diplôme Bac+2, titre RNCP de niveau 5</p>
+
                         <h3>BTS système numérique</h3>
-                        <p></p>
+                        <p>Lycée Roland Garros - La Réunion - 2015 - 2017</p>
+                        <p>- Langage arduino (dérivé C/C++)</p>
+                        <p>- Réseaux</p>
+                        <p>- HTML/CSS</p>
+
                         <h3>Baccalauréat STI2D</h3>
-                        <p></p>
+                        <p>Lycée Roland Garros - La Réunion - 2015</p>
+
                     </div>
                 </div>
 

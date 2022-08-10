@@ -138,9 +138,35 @@ body {
     display: flex;
     justify-content: space-evenly;
 
-    // .experience {}
+    .experience {
+        h2 {
+            margin-top: 10px;
+        }
 
-    // .education {}
+        h3 {
+            color: $fontColorBlue;
+            margin: 10px 0px;
+        }
+
+        p {
+            color: $fontColorGrey;
+        }
+    }
+
+    .education {
+        h2 {
+            margin-top: 10px;
+        }
+
+        h3 {
+            color: $fontColorBlue;
+            margin: 10px 0px;
+        }
+
+        p {
+            color: $fontColorGrey;
+        }
+    }
 }
 
 @media screen and (max-width: 767px) {
