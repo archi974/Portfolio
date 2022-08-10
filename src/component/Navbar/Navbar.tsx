@@ -24,7 +24,7 @@ const NavbarComponent: React.FunctionComponent<INavbarComponentProps> = props =>
     return (
         <header className="main-header" ref={inputRef}>
             <div className="logo">
-                <a href="/Portfolio/bio">LOGO</a>
+                <Link to="/Portfolio/bio" className="nav-link">Logo</Link>
             </div>
             <input type="checkbox" className="menu-btn" id="menu-btn" />
             <label htmlFor="menu-btn" className="menu-icon">
