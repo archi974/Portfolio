@@ -78,8 +78,6 @@
 .main-header.scrolled {
   height: 50px;
   background: rgba(28, 43, 74, 0.8);
-  -webkit-backdrop-filter: rgba(31, 53, 87, 0.95);
-          backdrop-filter: rgba(31, 53, 87, 0.95);
   color: #fff;
 }
 .main-header.scrolled .logo img {
@@ -370,6 +368,15 @@ body {
   flex-direction: column;
   align-items: center;
   color: #fff;
+}
+.hero .container-video {
+  display: flex;
+  justify-content: center;
+}
+.hero #backgroundVideo {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
 }
 .hero .hero-title {
   position: absolute;

@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarComponent from '../component/Navbar/Navbar';
+// import BackgroundVideo from "../component/ProjectVideo/projectVideo";
 import "./scss/project.css";
 
 export interface IProjectPageProps { };
@@ -17,6 +18,14 @@ const ProjectPage: React.FunctionComponent<IProjectPageProps> = props => {
                 </div>
                 <div>
                     <h2>Framework scss</h2>
+                    <div></div>
+                </div>
+                <div>
+                    <h2>My Wysiwyg</h2>
+                    <div></div>
+                </div>
+                <div>
+                    <h2>Css Generator</h2>
                     <div></div>
                 </div>
             </div>

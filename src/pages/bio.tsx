@@ -1,7 +1,6 @@
 import React from 'react';
 import NavbarComponent from '../component/Navbar/Navbar';
 import LinkComp from '../component/LinkComp/linkComp';
-import BackgroundVideo from "../component/BackgroundVideo/backgroundVideo";
 import "./scss/bio.css"
 
 export interface IBioPageProps { };
@@ -17,7 +16,12 @@ const BioPage: React.FunctionComponent<IBioPageProps> = props => {
                         <h1>Vincent K/BIDI</h1>
                         <p>BACKEND/FRONTEND DEVELOPER</p>
                     </div>
-                    <BackgroundVideo />
+                    {/* <BackgroundVideo /> */}
+                    <div className="container-video">
+                        <video id="backgroundVideo" autoPlay muted loop>
+                            <source src="background_video.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
                 <div className="divider-top-container">
                     <div className="divider"></div>
