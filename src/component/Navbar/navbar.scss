@@ -10,6 +10,13 @@
     z-index: 100;
     transition: .4s ease-out;
 
+    .logo {
+
+        img {
+            height: 100px;
+        }
+    }
+
     a {
         text-decoration: none;
         color: inherit;
@@ -74,8 +81,15 @@
     &.scrolled {
         height: 50px;
         background: $navbarBackgroundColorPrimary;
-        backdrop-filter: $navbarBackgorundColorPrimaryBDFilter;
         color: $fontColorWhite;
+        // backdrop-filter: $navbarBackgorundColorPrimaryBDFilter;
+
+        .logo {
+
+            img {
+                margin-top: 30px;
+            }
+        }
 
         .menu-icon {
 
@@ -93,8 +107,17 @@
         justify-content: space-between;
         padding: 0px 20px;
 
+        .logo {
+
+            img {
+                height: 75px;
+            }
+        }
+
         .menu-icon {
             display: block;
+            background: $fontColorWhiteClear;
+            border-radius: 10px;
 
             &__line {
                 animation: closedMid 0.8s backwards;
@@ -193,6 +216,42 @@
                     background: $fontColorWhite;
                     animation: openBtm 0.8s forwards;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .main-header {
+        height: 30px;
+
+        .logo {
+
+            img {
+                margin-top: 10px;
+                height: 45px;
+            }
+        }
+
+        .menu-icon {
+            background: none;
+            border-radius: 0px;
+        }
+
+        &.scrolled {
+            height: 30px;
+
+            .logo {
+
+                img {
+                    margin-top: 15px;
+                    height: 55px;
+                }
+            }
+
+            .menu-icon {
+                background: none;
+                border-radius: 0px;
             }
         }
     }

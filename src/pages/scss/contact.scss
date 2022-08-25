@@ -1,4 +1,5 @@
 @import "../../App.scss";
+@import "../../component/Navbar/navbar.scss";
 
 .container-contact {
     display: flex;
@@ -48,7 +49,6 @@
             text-decoration: revert;
 
             &:hover {
-                // color: red;
                 color: $fontColorYellowHover;
             }
         }
@@ -107,14 +107,14 @@
     align-items: center;
 
     .contact_form_text_area {
-        width: 25vw;
+        width: 65%;
         height: 30px;
         margin-bottom: 15px;
         padding: 3px;
     }
 
     textarea {
-        width: 25vw;
+        width: 65%;
         height: 125px;
         margin-bottom: 15px;
         padding: 3px;
@@ -143,6 +143,44 @@
 
 }
 
-
-
 // background-image: url(https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt6a108acd06c5358f/624bd42…/gb_primary_button.png?format=webply&quality=70);background-repeat: no-repeat;
+
+@media screen and (max-width: 875px) {
+
+    .contact {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    body {
+        overflow: visible;
+    }
+
+    .contact {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:300) {
+    .contact_form_btn {
+            background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt6a108acd06c5358f/624bd426844d9555dbf94103/gb_primary_button.png?format=webply&quality=70");
+            background-repeat: no-repeat;
+            width: 278px;
+            height: 73px;
+            color: $fontColorYellow;
+            margin: 15px;
+            font-size: 25px;
+            border: none;
+            border-radius: 17px;
+    
+            &::after {
+                right: -14px;
+                bottom: -57px;
+                left: -14px;
+                height: 73px;
+                background: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt92ed22ae9528f0e0/button_primary_detail_bottom_left.png?format=webply&quality=70") no-repeat, url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb7111a019f71efb5/button_primary_detail_bottom_right.png?format=webply&quality=70") no-repeat;
+                background-position: 0 100%, 100% calc(100% - 4px);
+            }
+        }
+}

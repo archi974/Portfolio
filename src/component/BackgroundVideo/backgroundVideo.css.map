@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,sEAAI;AAyBZ,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AD3BD,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAC1B;;AAED,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,KAAK;CACf",
-    "sources": [
-        "backgroundVideo.scss",
-        "../../App.scss"
-    ],
-    "names": [],
-    "file": "backgroundVideo.css"
-}
+{"version":3,"sources":["../../App.scss","backgroundVideo.css","backgroundVideo.scss"],"names":[],"mappings":"AAAQ,8EAAA;AAyBR;EACE,sBAAA;EACA,SAAA;EACA,UAAA;ACvBF;;ACHA;EACI,aAAA;EACA,uBAAA;ADMJ;;ACHA;EACI,kBAAA;EACA,WAAA;EACA,YAAA;ADMJ","file":"backgroundVideo.css"}

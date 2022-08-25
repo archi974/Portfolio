@@ -9,7 +9,7 @@ const ProjectPage: React.FunctionComponent<IProjectPageProps> = props => {
     return (
         <div className="body-project">
             <NavbarComponent />
-            <div>
+            <div className="project-page">
                 <h1>Project</h1>
                 <div>
                     <h2>PreviouslyOnVue</h2>

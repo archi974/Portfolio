@@ -9,40 +9,51 @@
 
 ## Commande utilisées
 
+   - Lancer le projet en local
+
+      - ouvrir un éditeur de code (visual studio code de préférence)
+      - Extension prérequis :
+         - Live Server
+         - Live Sass Compiler
+         - Lancer "Watch Sass" en bas
+      - Dans le terminal :
+         ```bash
+         npm start
+         ```
+
    - Partie commande
-        - Création du projet
-        ```bash
-        create-react-app app-name --template=typescript
-        ```
-        - Création des routes pour changer de page
-        ```bash
-        npm install react-router-dom
-        ```
-        - Implémentation de sass
-        ```bash
-        npm i -D node-sass
-        npm i -D @types/node-sass
-        ```
-        - Test de vulnérabilité des mises à jour
-        ```bash
-        npm audit --production
-        ```
+      - Création du projet
+     ```bash
+     create-react-app app-name --template=typescript
+     ```
+     - Création des routes pour changer de page
+     ```bash
+     npm install react-router-dom
+     ```
+     - Implémentation de sass
+     ```bash
+     npm i -D node-sass
+     npm i -D @types/node-sass
+     ```
+     - Test de vulnérabilité des mises à jour
+     ```bash
+     npm audit --production
+     ```
 
    - Partie navigateur
         
-        - Initialisation du projet
-        ```bash
-        npm i
-        ```
-        - Lancement du serveur react
-        ```bash
-        npm start
-        ```
-
-        - Déployer en ligne
-        ```bash
-        npm run deploy
-        ```
+     - Initialisation du projet
+     ```bash
+     npm i
+     ```
+     - Lancement du serveur react
+     ```bash
+     npm start
+     ```
+     - Déployer en ligne
+     ```bash
+     npm run deploy
+     ```
 
 ## Source
    - https://blog.devgenius.io/implementing-react-router-v6-with-code-splitting-in-a-react-typescript-project-14d98e2cab79

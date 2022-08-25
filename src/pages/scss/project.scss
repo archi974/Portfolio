@@ -1,5 +1,12 @@
-.body-project {
-    background-color: #000;
+@import "../../App.scss";
+@import "../../component/Navbar/navbar.scss";
+
+.project-page {
+    background-color: #ff000042;
+    height: 500px;
+    padding: 80px 0px;
+    text-align: center;
+    color: #fff;
 }
 
 //image de fond bleu

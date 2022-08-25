@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,OAAO,CAAC,sEAAI;AAyBZ,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX;;AD3BD,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,MAAM;CAC1B",
-    "sources": [
-        "linkComp.scss",
-        "../../App.scss"
-    ],
-    "names": [],
-    "file": "linkComp.css"
-}
+{"version":3,"sources":["../../App.scss","linkComp.css","linkComp.scss"],"names":[],"mappings":"AAAQ,8EAAA;AAyBR;EACE,sBAAA;EACA,SAAA;EACA,UAAA;ACvBF;;ACHA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;ADMJ","file":"linkComp.css"}
