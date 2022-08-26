@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../App.scss","linkComp.css","linkComp.scss"],"names":[],"mappings":"AAAQ,8EAAA;AAyBR;EACE,sBAAA;EACA,SAAA;EACA,UAAA;ACvBF;;ACHA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;ADMJ","file":"linkComp.css"}
+{"version":3,"sources":["../../App.scss","linkComp.css","linkComp.scss"],"names":[],"mappings":"AAAQ,8EAAA;AAyBR;EACE,sMAAA;EACA,0BAAA;EACA,sBAAA;ACvBF;;AD0BA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;ACvBF;;ACTA;EACI,aAAA;EACA,eAAA;EACA,uBAAA;ADYJ","file":"linkComp.css"}

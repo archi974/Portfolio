@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf7a985768804c98d/61f21a0cc74ced5b5b83aea3/repeating_leather_brown.jpg?format=webply&quality=70");
+  background-size: 100% auto;
+  background-color: #000;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf7a985768804c98d/61f21a0cc74ced5b5b83aea3/repeating_leather_brown.jpg?format=webply&quality=70");
+  background-size: 100% auto;
+  background-color: #000;
 }
 
 * {
@@ -78,8 +90,6 @@
 .main-header.scrolled {
   height: 50px;
   background: rgba(28, 43, 74, 0.8);
-  -webkit-backdrop-filter: rgba(31, 53, 87, 0.95);
-          backdrop-filter: rgba(31, 53, 87, 0.95);
   color: #fff;
 }
 .main-header.scrolled .logo img {

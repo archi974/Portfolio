@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf7a985768804c98d/61f21a0cc74ced5b5b83aea3/repeating_leather_brown.jpg?format=webply&quality=70");
+  background-size: 100% auto;
+  background-color: #000;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltf7a985768804c98d/61f21a0cc74ced5b5b83aea3/repeating_leather_brown.jpg?format=webply&quality=70");
+  background-size: 100% auto;
+  background-color: #000;
 }
 
 * {
@@ -78,8 +90,6 @@
 .main-header.scrolled {
   height: 50px;
   background: rgba(28, 43, 74, 0.8);
-  -webkit-backdrop-filter: rgba(31, 53, 87, 0.95);
-          backdrop-filter: rgba(31, 53, 87, 0.95);
   color: #fff;
 }
 .main-header.scrolled .logo img {
@@ -357,10 +367,39 @@
     transform: translateY(5px) rotate(0deg);
   }
 }
-.project-page {
-  background-color: rgba(255, 0, 0, 0.2588235294);
+.body-project .project-page {
   height: 500px;
   padding: 80px 0px;
   text-align: center;
   color: #fff;
+  background-image: url(../../../public/wallpaper_project.jpeg);
+  background-position: center;
+}
+.body-project .project-page .project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.body-project .project-page .project-container .project-bloc {
+  display: flex;
+}
+.body-project .project-page .project-container .project-bloc .bloc-left {
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt56ec452f2eec4e04/61f21cfb621a6a2afac2083b/repeating_leather_blue.jpg?format=webply&quality=70");
+  background-size: 100% auto;
+  background-color: #000;
+  margin: 15px;
+  padding: 5px;
+}
+.body-project .project-page .project-container .project-bloc .bloc-left .project-element-left {
+  display: flex;
+}
+.body-project .project-page .project-container .project-bloc .bloc-right {
+  background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt56ec452f2eec4e04/61f21cfb621a6a2afac2083b/repeating_leather_blue.jpg?format=webply&quality=70");
+  background-size: 100% auto;
+  background-color: #000;
+  margin: 15px;
+  padding: 5px;
+}
+.body-project .project-page .project-container .project-bloc .bloc-right .project-element-right {
+  display: flex;
 }/*# sourceMappingURL=project.css.map */
