@@ -462,4 +462,8 @@ body {
 .body-project .project-page .project-container .project-bloc .right p {
   text-align: right;
   align-items: center;
+}
+
+.ReactModal__Overlay--after-open {
+  z-index: 100;
 }/*# sourceMappingURL=project.css.map */
