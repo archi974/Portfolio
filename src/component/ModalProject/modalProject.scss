@@ -1,0 +1,19 @@
+@import "../../App.scss";
+@import "../../component/Navbar/navbar.scss";
+
+// #modal {
+//     top: 25%;
+//     left: 25%;
+//     right: 'auto';
+//     bottom: 'auto';
+//     // background-color: $navbarBackgorundColorPrimaryBDFilter;
+//     margin-right: '-50%';
+//     transform: 'translate(-50%, -50%)';
+//     z-index: 1000;
+//     position: 'absolute';
+//     background-color: red !important;
+// }
+
+header {
+    display: none;
+}
