@@ -7,7 +7,7 @@ export interface IContactPageProps { }
 
 const ContactPage: React.FunctionComponent<IContactPageProps> = props => {
 
-    function sendEmail(e: React.FormEvent<HTMLFormElement>) {
+    function sendEmail(e: React.FormEvent<HTMLFormElement>): void {
         e.preventDefault();
 
         emailjs.sendForm(
@@ -18,8 +18,12 @@ const ContactPage: React.FunctionComponent<IContactPageProps> = props => {
         )
             .then((result) => {
                 console.log(result.text);
+
+                let validSend = document.getElementById('validSend');
+                validSend!.innerText = "Votre mail à bien était envoyer."
+
             }, (error) => {
-                console.log(error.text);
+                alert(error.text);
             });
         e.currentTarget.reset()
     }
@@ -28,15 +32,12 @@ const ContactPage: React.FunctionComponent<IContactPageProps> = props => {
             <NavbarComponent />
             <div className="container-contact">
                 <h1>Contact</h1>
-                <div className="test">
-                </div>
                 <div className="contact">
                     <div className="contact-data">
                         <div className="contact-particular">
                             <a href="mailto:vincent.k.97480@gmail.com">vincent.k.97480@gmail.com</a>
                             <p>0755 64 32 25</p>
                             <p>Paris</p>
-                            <p>27 ans</p>
                         </div>
                         <a href="https://www.linkedin.com/in/vincent-kbidi/" target="_blank" rel="noopener noreferrer">
                             <img className="contact-button-linkedin" src="https://api.iconify.design/openmoji:linkedin.svg" alt="logo LinkedIn" />
@@ -47,12 +48,13 @@ const ContactPage: React.FunctionComponent<IContactPageProps> = props => {
                             </a>
                         </button>
                     </div>
-                    <form className="contact_form"> {/*onSubmit={sendEmail}>*/}
+                    <form className="contact_form" onSubmit={sendEmail}>
                         <input className="contact_form_text_area" type="text" name="from_name" placeholder="Nom" />
                         <input className="contact_form_text_area" type="email" name="from_email" placeholder="Email" />
                         <textarea name="message" placeholder="Message..." />
                         <input type="submit" value="Send" className="contact_form_btn" />
                     </form>
+                    <div id="validSend"></div>
                 </div>
             </div>
         </div>

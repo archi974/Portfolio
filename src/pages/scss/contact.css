@@ -367,18 +367,17 @@ body {
     transform: translateY(5px) rotate(0deg);
   }
 }
-.container-contact {
+.body-contact .container-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 60px;
 }
-.container-contact h1 {
+.body-contact .container-contact h1 {
   text-align: center;
   color: #fff;
 }
-
-.contact {
+.body-contact .container-contact .contact {
   margin-top: 30px;
   background-color: rgba(28, 43, 74, 0.8);
   display: flex;
@@ -389,81 +388,74 @@ body {
   border-radius: 10px;
   width: 35vw;
 }
-
-.test {
-  z-index: 1000;
-  position: relative;
-}
-
-.contact-data {
+.body-contact .container-contact .contact .contact-data {
   background: rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.2);
   padding: 20px 10px;
   margin: 20px 0px;
   border-radius: 10px;
 }
-.contact-data .contact-particular a {
+.body-contact .container-contact .contact .contact-data .contact-particular a {
   color: #F8B700;
   -webkit-text-decoration: revert;
           text-decoration: revert;
 }
-.contact-data .contact-particular a:hover {
+.body-contact .container-contact .contact .contact-data .contact-particular a:hover {
   color: #FFE806;
 }
-.contact-data p {
+.body-contact .container-contact .contact .contact-data p {
   color: #B5B9BC;
 }
-.contact-data a {
+.body-contact .container-contact .contact .contact-data a {
   text-decoration: none;
   color: #fff;
   display: flex;
   justify-content: center;
 }
-.contact-data .contact-button-linkedin {
+.body-contact .container-contact .contact .contact-data .contact-button-linkedin {
   height: 35px;
 }
-.contact-data .contact-button-linkedin:hover {
+.body-contact .container-contact .contact .contact-data .contact-button-linkedin:hover {
   transition: all 0.5s ease-out;
   height: 45px;
 }
-.contact-data button {
+.body-contact .container-contact .contact .contact-data button {
   border: none;
   background-color: #000;
   border-radius: 10px;
   margin-top: 5px;
   padding: 5px;
 }
-.contact-data .contact-data-button a {
+.body-contact .container-contact .contact .contact-data .contact-data-button a {
   flex-direction: column;
 }
-.contact-data .contact-data-button:hover {
+.body-contact .container-contact .contact .contact-data .contact-data-button:hover {
   background-color: #F8B700;
   border-radius: 50%;
   padding: 7.5px;
   transition: all 0.5s ease-out;
 }
-.contact-data .contact-data-button:hover a {
+.body-contact .container-contact .contact .contact-data .contact-data-button:hover a {
   color: #000;
 }
-
-.contact_form {
+.body-contact .container-contact .contact .contact_form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.contact_form .contact_form_text_area {
+.body-contact .container-contact .contact .contact_form .contact_form_text_area {
   width: 65%;
   height: 30px;
   margin-bottom: 15px;
   padding: 3px;
 }
-.contact_form textarea {
+.body-contact .container-contact .contact .contact_form textarea {
   width: 65%;
   height: 125px;
   margin-bottom: 15px;
   padding: 3px;
 }
-.contact_form .contact_form_btn {
+.body-contact .container-contact .contact .contact_form .contact_form_btn {
   background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt6a108acd06c5358f/624bd426844d9555dbf94103/gb_primary_button.png?format=webply&quality=70");
   background-repeat: no-repeat;
   width: 278px;
@@ -474,13 +466,17 @@ body {
   border: none;
   border-radius: 17px;
 }
-.contact_form .contact_form_btn::after {
+.body-contact .container-contact .contact .contact_form .contact_form_btn::after {
   right: -14px;
   bottom: -57px;
   left: -14px;
   height: 73px;
   background: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/blt92ed22ae9528f0e0/button_primary_detail_bottom_left.png?format=webply&quality=70") no-repeat, url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb7111a019f71efb5/button_primary_detail_bottom_right.png?format=webply&quality=70") no-repeat;
   background-position: 0 100%, 100% calc(100% - 4px);
+}
+.body-contact .container-contact .contact #validSend {
+  color: #F8B700;
+  padding-bottom: 25px;
 }
 
 @media screen and (max-width: 875px) {

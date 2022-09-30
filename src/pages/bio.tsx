@@ -16,7 +16,6 @@ const BioPage: React.FunctionComponent<IBioPageProps> = props => {
                         <h1>Vincent K/BIDI</h1>
                         <p>BACKEND/FRONTEND DEVELOPER</p>
                     </div>
-                    {/* <BackgroundVideo /> */}
                     <div className="container-video">
                         <video id="backgroundVideo" autoPlay muted loop>
                             <source src="background_video.mp4" type="video/mp4" />
